@@ -21,10 +21,14 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 import BottomTabNavigator from "./navigation/BottomTabNavigator";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyB-lTBd1Ek44XCDI_ySAEg7qFIDoEv47Nw",
-  authDomain: "dalmm-76ade.firebaseapp.com",
-  databaseURL: "https://dalmm-76ade.firebaseio.com",
-  storageBucket: "dalmm-76ade.appspot.com"
+  apiKey: "api-key",
+  authDomain: "project-id.firebaseapp.com",
+  databaseURL: "https://project-id.firebaseio.com",
+  projectId: "project-id",
+  storageBucket: "project-id.appspot.com",
+  messagingSenderId: "sender-id",
+  appId: "app-id",
+  measurementId: "G-measurement-id",
 };
 // Initialize Firebase
 if (!firebase.apps.length) {
